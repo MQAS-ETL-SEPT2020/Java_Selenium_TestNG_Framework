@@ -1,4 +1,5 @@
 tests\LoginPageTest.class
 tests\CheckoutTest.class
 tests\HomePageTest.class
+tests\RemoveProductTest.class
 tests\ForumsPageTest.class

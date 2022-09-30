@@ -1,7 +1,11 @@
+pages\ComputerPage.class
 pages\BasePage.class
+pages\HomePage1.class
+pages\ProductsPage.class
 pages\ForumsPage.class
 pages\LoginPage.class
 pages\CartPage.class
 pages\HomePage.class
 pages\CheckoutPage.class
 util\ExtentReportListener.class
+pages\DesktopPage.class

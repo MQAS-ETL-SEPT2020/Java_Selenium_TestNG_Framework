@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-29T16:13:07 IST" name="Smoke Test Suite" finished-at="2022-09-29T16:13:07 IST" duration-ms="7">
+  <suite started-at="2022-09-30T13:10:21 IST" name="Smoke Test Suite" finished-at="2022-09-30T13:11:18 IST" duration-ms="57597">
     <groups>
     </groups>
-    <test started-at="2022-09-29T16:13:07 IST" name="Smoke Test" finished-at="2022-09-29T16:13:07 IST" duration-ms="7">
+    <test started-at="2022-09-30T13:10:21 IST" name="Smoke Test" finished-at="2022-09-30T13:11:18 IST" duration-ms="57597">
+      <class name="tests.RemoveProductTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.RemoveProductTest@61d6015a]" started-at="2022-09-30T13:10:21 IST" name="setup" finished-at="2022-09-30T13:10:57 IST" duration-ms="36712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@210308d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnComputer()[pri:0, instance:tests.RemoveProductTest@61d6015a]" started-at="2022-09-30T13:10:57 IST" name="ClickOnComputer" finished-at="2022-09-30T13:11:15 IST" duration-ms="17055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnComputer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveProductTest@61d6015a]" started-at="2022-09-30T13:11:15 IST" name="tearDown" finished-at="2022-09-30T13:11:18 IST" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveProductTest -->
     </test> <!-- Smoke Test -->
   </suite> <!-- Smoke Test Suite -->
 </testng-results>
